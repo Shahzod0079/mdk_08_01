@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px); 
+    }
+}
+.moving-object {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5733; 
+    animation: moveRight 3s forwards;
+}

@@ -1,0 +1,255 @@
+ul {
+    padding-left: 20px;
+  }
+  /* Задание 1  */
+  .task1 li {
+    color: blue;
+    list-style-type: disc;
+    position: relative;
+  }
+  .task1 li:hover::after {
+    color: darkblue;
+  }
+  /* Задание 2  */
+  .task2 li {
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    border: 1px solid blue;
+    color: blue;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    transition: color 0.3s ease;
+  }
+  .task2 li:hover {
+    color: #000000;
+    font-weight: bold; 
+  }
+  /* Задание 3  */ 
+  .task3 li {
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    background-color: #333;
+    border: 1px solid #333; 
+    color: white;
+    margin-bottom: 5px;
+  }
+  .task3 li:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  /* Задание 4  */
+  .task4 {
+    padding-left: 0;
+    width: 200px;
+  }
+  .task4 li {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    list-style-type: none;
+    width: 200px;
+    margin-bottom: 3px;
+    border: 1px solid blue;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .task4 li::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px;
+    background-image: url('img/blue.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .task4 li:hover {
+    background-color: #ffffff;
+    color: #172bc2;
+    border-color: #172bc2;
+  }
+  .task4 li:hover::after {
+    opacity: 1;
+  }
+  .task4 li span {
+    display: block;
+    transition: color 0.3s ease;
+  }
+  /* Задание 5 */
+  .task5 li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    margin: 0 2px;
+    position: relative;
+  }
+  .task5 li:hover {
+    color: red;
+  }
+  .task5 li:not(:last-child)::after {
+    content: "|";
+    margin-left: 5px;
+    color: #ccc;
+  }
+  /* Задание 6 */
+  .task6 li {
+    display: inline-block;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    margin: 3px;
+    color: #007BFF;
+    transition: all 0.2s;
+  }
+  .task6 li:hover {
+    border: 1px solid #121212;
+    background-color: #121517;
+    color: white;
+  }
+ /* Задание 7 */
+ .task7 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+.task7 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.task7 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.task7 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.task7 .icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .task7 .icon img {
+    filter: grayscale(100%) brightness(0.5); 
+    transition: filter 0.3s ease;
+  }
+.task7 .main-text {
+  display: block;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.task7 li:hover .main-text {
+  color: #0066cc;
+}
+.task7 li:hover .icon img {
+  filter: grayscale(100%) brightness(0.5) sepia(100%) hue-rotate(180deg) saturate(500%);}
+.task7 li:hover {
+  transform: translateY(-3px);
+}
+  /* Задание 8 */
+.task8 {
+  display: flex; 
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  background-color: rgb(255, 136, 0); 
+  width: 600px;
+}
+
+.task8 li {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  border: none; 
+  color: rgb(255, 255, 255); 
+  margin-bottom: 0px; 
+  transition: background-color 0.3s ease;
+}
+
+.task8 li:hover {
+  background-color: red; 
+}
+/* Задание 9 */
+.task9 thead th {
+  font-weight: bold;
+}
+.calendar-header {
+  position: relative;
+  display: inline-block;
+}
+.task9 thead th:nth-child(6),
+.task9 thead th:nth-child(7),
+.task9 tbody td:nth-child(6),
+.task9 tbody td:nth-child(7) {
+  color: red;
+}
+.task9 tbody tr:nth-child(2) td:nth-child(3) {
+  text-decoration: underline;
+}
+.task9 tbody td:empty {
+  color: #ffffff;
+  background: #ffffff;
+}
+.task9 tbody tr:first-child td:nth-child(6),
+.task9 tbody tr:first-child td:nth-child(7) {
+  text-align: right;
+  padding-right: 15px;
+}
+.task9 tbody tr:not(:first-child) td {
+  text-align: center;
+}
+.task9 thead {
+  position: relative;
+}
+.task9 thead::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #000000; 
+}

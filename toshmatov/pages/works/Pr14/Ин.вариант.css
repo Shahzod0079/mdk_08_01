@@ -1,0 +1,21 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #2db34a; 
+    animation: colorChange 4s infinite;
+}
+@keyframes colorChange {
+    0% {
+        background-color: #2db34a; 
+    }
+    33% {
+        background-color: #ffcc00; 
+    }
+    66% {
+        background-color: #ff3300; 
+    }
+    100% {
+        background-color: #2db34a; 
+    }
+}

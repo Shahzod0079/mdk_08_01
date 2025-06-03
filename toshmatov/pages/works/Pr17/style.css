@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 490px;
+}
+.header {
+  position: relative;
+  height: 220px;
+  margin-bottom: 30px;
+}
+.top-bg {
+  background-image: url('img/111.png');
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+}
+.menu-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 24px;
+  height: 24px;
+  background-image: url('img/103.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.search-icon {
+  position: absolute;
+  top: 15px;
+  right: 60px;
+  width: 30px;
+  height: 30px;
+  background-image: url('img/search.png'); 
+  background-size: cover;
+}
+.profile-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background-image: url('img/101.png');
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.left-search-icon {
+  position: absolute;
+  top: 15px;
+  right: 110px;
+  width: 30px;
+  height: 30px;
+  background-image: url('img/102.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.feed-title {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  color: white;
+  font-size: 40px;
+}
+.tabs {
+  display: flex;
+  justify-content: left;
+  gap: 60px;
+  position: absolute;
+  top: 164px;
+  width: 100%;
+}
+.tab {
+  color: white;
+  opacity: 0.9;
+  font-weight: 500;
+}
+.tab.active {
+  font-weight: bold;
+  opacity: 1;
+  border-bottom: 3px solid red;
+  padding-bottom: 8px;
+}
+.plus-button {
+  position: absolute;
+  bottom: -5px; /*Располагает кнопку выше нижней границы*/
+  right: 30px;
+  width: 70px;
+  height: 50px;
+  background-image: url('img/105.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.left-info {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+.vardan {
+  background-image: url('img/113.png');
+}
+.maurine {
+  background-image: url('img/114.png');
+}
+.name {
+  font-weight: bold;
+}
+.hashtags {
+  color: gray;
+  font-size: 0.85em;
+}
+.time {
+  color: gray;
+  font-size: 0.85em;
+}
+.two-photos {
+  display: flex;
+  gap: 5px;
+  height: 150px;
+  margin: 10px 0;
+}
+.two-photos .photo {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+.flower-photo {
+  height: 250px;
+  margin: 10px 0;
+  background-image: url('img/127.png');
+  background-size: cover;
+  background-position: center;
+}
+.reactions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.reactions div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  padding: 8px 12px 8px 35px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  min-width: 80px;
+}
+.like {
+  background-color: #3498db;
+  background-image: url('img/6.png');
+}
+.comment {
+  background-color: #e84393;
+  background-image: url('img/4.png');
+}
+.share {
+  background-color: #f1c40f;
+  background-image: url('img/i.png');
+}

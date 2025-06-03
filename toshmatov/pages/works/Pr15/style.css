@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+      font-family: "Alumni Sans", sans-serif;
+}
+.wrapper{
+    display: grid;
+  grid-template-columns: 489px 376px 379px;
+  grid-template-rows: 255px 97px 239px ;
+  gap: 20px;
+
+}
+.image1{
+grid-row: span 3;
+background: url(img/image\ 1.png);
+background-size: cover;
+}
+.image2{
+    background: url(img/image\ 2.png);
+    background-size: cover;
+
+}
+.image3{
+background: url(img/image\ 3.png);
+    background-size: cover;
+   
+}
+.image4{
+grid-column: span 2;
+font-family: "Alumni Sans", sans-serif;
+}
+
+.image5{
+    background: url(img/image\ 4\ \(1\).png);
+    background-size: cover;
+    
+}
+.image6{
+    background: url(img/image\ 5\ \(1\).png);
+    background-size: cover;
+
+}
+

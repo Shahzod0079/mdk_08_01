@@ -1,0 +1,109 @@
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: left; 
+}
+h3 {
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    text-align: left; 
+}
+.p1 {
+    text-align: right; 
+}
+.p2 {
+        text-align: center; 
+        text-indent: 30px; 
+        text-indent: 5%;
+    }
+.p3 {
+    line-height: 2;
+    text-align: left;
+}
+.p4 span {
+    vertical-align: super;
+}
+.p5 {
+    word-spacing: 10px;
+    text-align: left;
+}
+.p6 {
+    letter-spacing: 3px;
+    text-align: left;
+}
+.p7 {
+    white-space: nowrap;
+    text-align: left;
+}
+.p8 {
+    tab-size: 8;
+    text-align: left;
+}
+.p9 {
+    text-transform: uppercase;
+    text-align: left;
+}
+.p10 {
+    direction: rtl;
+    text-align: left;
+}
+#p11 {
+    unicode-bidi: bidi-override;
+    text-align: left;
+}
+#p12 {
+    text-decoration: underline;
+    text-align: left;
+}
+#p13 {
+    quotes: "'" "'";
+    text-align: left;
+}
+#p14 {
+    font-family: 'Courier New', monospace;
+    text-align: left;
+}
+#p15 {
+    font-style: italic;
+    text-align: left;
+}
+#p16 {
+    font-variant: small-caps;
+    text-align: left;
+}
+#p17 {
+    font-weight: bold;
+    text-align: left;
+}
+#p18 {
+    font-size: 24px;
+    text-align: left;
+}
+#p19 {
+    color: #ff0000;
+    text-align: left;
+}
+#p20 {
+    text-shadow: 1px 1px 2px #999;
+    text-align: left;
+}
+#p21 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+#p22::first-letter {
+    font-size: 4em;
+    font-weight: bold; 
+    color: #007BFF; 
+    float: left; 
+    margin-right: 0px; 
+}
